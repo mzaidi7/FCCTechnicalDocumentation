@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Varela Round', sans-serif;
+    color: #EEEEEE;
+    background-color: #78909C;
+  }
+  
+  .return_button {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    right: 0px;
+  }
+  
+  
+   nav.large_menu {
+    font-size: 12px;
+    background: linear-gradient(75deg, #737373, #ffb499);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+    width: 250px;
+  }
+  
+   nav.large_menu ul {
+    list-style-type: none;
+  }
+  
+   nav.large_menu li {
+    padding-top: 10px;
+    font-size: 16px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  nav.large_menu a:hover {
+    color: #FFAB40;
+  }
+  
+  .nav-link {
+    color: #EEEEEE;
+  }
+  
+  
+  .list_title {
+    font-size: 28px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  main {
+    font-family: "Nunito sans", tahoma;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+    position: relative;
+    margin-left: 250px;
+  }
+  
+  
+  
+  header{
+    font-family: "Nanum Gothic", tahoma;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1%;
+  }
+  
+  p{
+    margin-left: 1%;
+  }
+  
+  code {
+  display: block;
+  margin-left: 0;
+  background-color: black;
+  border-radius: 7px;
+  padding: 12px;
+  }
+  
+  a{
+    margin: 10%;
+  }
+  
+  
+  
+  li > a {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  @media only screen and (max-width: 768px) {
+    nav.large_menu {
+      position: static;
+      width: 100%;
+      height: 150px;
+      overflow-y: scroll;
+    }
+    
+    main {
+      margin-left: 0;
+    }
+    #header, nav > ul > li{
+      text-align:center;
+    }
+  }
+   /* Optional: Set a specific height */
+
+  /* Portrait Mobile */
+  @media only screen and (max-width: 420px) {
+    nav.large_menu {
+      position: static;
+      width: 100%;
+      height: 150px;
+      overflow-y: scroll;
+    }
+    main {
+    margin-left: 0;
+      
+    width: 250px;
+    }
+    #header, nav > ul > li{
+      text-align:center;
+    }
+  }
+  
